@@ -1,0 +1,28 @@
+{
+  "name": "giacomo-guidetti",
+  "version": "1.0.0",
+  "description": "Giacomo Guidetti Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riccardo-nigrelli/giacomo-guidetti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riccardo-nigrelli/giacomo-guidetti/issues"
+  },
+  "homepage": "https://github.com/riccardo-nigrelli/giacomo-guidetti#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.x.x",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1"
+  }
+}
