@@ -19,7 +19,7 @@
   "homepage": "https://github.com/riccardo-nigrelli/giacomo-guidetti#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^3.x.x",
+    "gulp": "^3.9.1",
     "gulp-clean-css": "^4.0.0",
     "gulp-imagemin": "^5.0.3",
     "gulp-rename": "^1.4.0",
