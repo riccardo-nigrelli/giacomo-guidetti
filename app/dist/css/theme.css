@@ -40,6 +40,8 @@
 	margin-top: 50px;
 }
 
-/* .logo {
-	width: 22%;
-} */
+.album {  }
+
+.album:hover {
+	opacity: 0.5;
+} 
