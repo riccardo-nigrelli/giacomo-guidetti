@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+a,
+p,
+h2,
+h3,
+h5,
+h6 {
+	font-family: 'Poiret One', cursive;
+}
+
 .home {
 	position: relative;
 	background: url(../images/sfondo8-trim.jpg) no-repeat center center fixed; 
@@ -10,8 +22,42 @@
 	height: 100%;
 }
 
+h1,
+h4,
+.cinzel-font {
+	font-family: 'Cinzel', serif;
+}
+
+.font-70 {
+	font-size: 70px;
+}
+
+.color-white {
+	color: white;
+}
+
+.font-24 {
+	font-size: 24px;
+}
+
+.font-18 {
+	font-size: 18px;
+}
+
+.btn:hover, .btn-outline-light:hover {
+	opacity: 0.8;
+}
+
 @media all and (max-width: 499px) {
-    .home {
+	.font-70{
+		font-size: 40px;
+	}
+
+	.font-24{
+		font-size: 18px;
+	}
+
+  .home {
 		position: relative;
 		background: url(../images/sfondo8-mobile.jpg) no-repeat center center fixed; 
 		-webkit-background-size: cover;
@@ -30,6 +76,10 @@
 	#logo {
 		width: 80%;
 	}
+
+	.m-left-50-mobile{
+		margin-left: 50px;
+	}
 }
 
 .m-top-320 {
@@ -40,8 +90,26 @@
 	margin-top: 50px;
 }
 
-.album {  }
+.m-top-30 {
+	margin-top: 30px;
+}
 
-.album:hover {
-	opacity: 0.5;
-} 
+.m-left-50 {
+	margin-left: 50px;
+}
+
+.m-right-50 {
+	margin-right: 50px;
+}
+
+.border-0 {
+	border: 0px;
+}
+
+.font-16 {
+	font-size: 16px;
+}
+
+.m-top-60 {
+	margin-top: 60px;
+}
