@@ -113,3 +113,22 @@ h4,
 .m-top-60 {
 	margin-top: 60px;
 }
+
+.icon_hover {
+	color: #444;
+}
+
+.col-xxs-auto.text-center:hover {
+	opacity: 1;
+}
+.col-xxs-auto.text-center {
+	opacity: 0.5;
+	transition: all .4s;
+}
+
+#contain{
+	padding-top: calc(100vh - 100px);
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+}
