@@ -11,18 +11,20 @@
     "url": "git+https://github.com/riccardo-nigrelli/giacomo-guidetti.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Riccardo Nigrelli",
   "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
   "bugs": {
     "url": "https://github.com/riccardo-nigrelli/giacomo-guidetti/issues"
   },
   "homepage": "https://github.com/riccardo-nigrelli/giacomo-guidetti#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^4.0.0",
-    "gulp-imagemin": "^5.0.3",
+    "browser-sync": "^2.26.7",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-imagemin": "^6.0.0",
     "gulp-rename": "^1.4.0",
-    "gulp-uglify": "^3.0.1"
+    "gulp-uglify": "^3.0.2"
   }
 }
