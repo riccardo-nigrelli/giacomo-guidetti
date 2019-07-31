@@ -3,7 +3,8 @@ const rename = require('gulp-rename');
 const uglify = require('gulp-uglify');
 const imagemin = require('gulp-imagemin');
 const cleanCSS = require('gulp-clean-css');
-var browserSync = require('browser-sync').create();
+var browserSync = require('browser-sync');
+var connect = require('gulp-connect-php');
 
 gulp.task('minify-css', () => {
   return gulp.src('app/dist/css/*.css')
@@ -32,18 +33,29 @@ gulp.task('img-compress', () => {
     .pipe(gulp.dest('app/images/'))
 });
 
-gulp.task('browserSync', () => {
-  browserSync.init({
-    server: {
-      baseDir: './app/'
-    },
+// gulp.task('browserSync', () => {
+//   browserSync.init({
+//     server: {
+//       baseDir: './app/'
+//     },
+//   })
+// });
+
+gulp.task('dev', () => {
+
+  connect.server({}, function () {
+    browserSync({
+      proxy: '127.0.0.1:8000/app/'
+    });
+  });
+
+  // gulp.watch('app/dist/css/*.css', gulp.series('minify-css'));
+  // gulp.watch('app/dist/js/*.js', gulp.series('minify-js'));
+
+  // gulp.watch('app/*.html', browserSync.reload);
+  // gulp.watch('app/dist/js/*.js', browserSync.reload);
+
+  gulp.watch('./app/*.php').on('change', () => {
+    browserSync.reload();
   })
-});
-
-gulp.task('dev', gulp.series('browserSync', 'minify-css', 'minify-js'), () => {
-  gulp.watch('app/dist/css/*.css', gulp.series('minify-css'));
-  gulp.watch('app/dist/js/*.js', gulp.series('minify-js'));
-
-  gulp.watch('app/*.html', browserSync.reload);
-  gulp.watch('app/dist/js/*.js', browserSync.reload);
 });
