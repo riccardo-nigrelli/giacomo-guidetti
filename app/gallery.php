@@ -94,7 +94,31 @@
         </section>
       ";
     else if ( $_GET['type'] === 'people' ) {
-      
+      echo "
+        <section class='gallery-section'>
+          <div class='container-fluid grid-custom p-80'>
+            <div class='row'>
+
+              <div style='padding: 4px;' class='text-center col-md-4'>
+                <a href='./albums/people/Piralla_1.jpg' class='gallery-link'>
+                  <img style='padding-bottom: 8px;' src='./albums/people/Piralla_1.jpg' alt='' class='gallery-image img-fluid'>
+                </a>
+              </div>
+              <div style='padding: 4px;' class='text-center col-md-4'>
+                <a href='./albums/people/Camilla_1.jpg' class='gallery-link'>
+                  <img style='padding-bottom: 8px;' src='./albums/people/Camilla_1.jpg' alt='' class='gallery-image img-fluid'>
+                </a>
+              </div>
+              <div style='padding: 4px;' class='text-center col-md-4'>
+                <a href='./albums/people/Luca_viale.jpg' class='gallery-link'>
+                  <img style='padding-bottom: 8px;' src='./albums/people/Luca_viale.jpg' alt='' class='gallery-image img-fluid'>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </section>
+      ";
     }
     else if ( $_GET['type'] === 'travel' ) {
       
