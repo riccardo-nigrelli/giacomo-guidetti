@@ -25,96 +25,14 @@
   <?php
     if ( $_GET['type'] === 'nature' )
       include_once('nature.php');
-    else if ( $_GET['type'] === 'people' ) {
-      echo "
-        <section class='gallery-section' style='padding-bottom: 500px;'>
-          <div class='container-fluid grid-custom p-80'>
-            <div class='row'>
-
-              <div style='padding: 4px;' class='text-center col-md-4'>
-                <a href='./albums/people/Piralla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Piralla_1.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Piralla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/IT.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Piralla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Chiara.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Piralla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Camilla_2.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Luca_viale.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Bellissimo.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Luca_viale.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Band_2.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-
-              </div>
-
-              <div style='padding: 4px;' class='text-center col-md-4'>
-                <a href='./albums/people/Camilla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Camilla_1.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Camilla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Delpo_ak47.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Camilla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Dalia_1.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Camilla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Band_1.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Camilla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Giovanni_montagna.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Piralla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Delpo_3.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Piralla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Veronica_1.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Piralla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Delpo_4.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-              </div>
-
-              <div style='padding: 4px;' class='text-center col-md-4'>
-                <a href='./albums/people/Luca_viale.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Luca_viale.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Luca_viale.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Veronica_2.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Luca_viale.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Cosplayer_1.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Luca_viale.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Delpo_2.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Camilla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Piralla_2.jpg' alt='' class='gallery-image img-fluid'>
-                </a>
-                <a href='./albums/people/Camilla_1.jpg' class='gallery-link'>
-                  <img style='padding-bottom: 8px;' src='./albums/people/Cosplayer_2.png' alt='' class='gallery-image img-fluid'>
-                </a>
-
-              </div>
-            </div>
-          </div>
-        </section>
-      ";
-    }
-    else if ( $_GET['type'] === 'travel' ) {
-      
-    }
-    else if ( $_GET['type'] === 'street' ) {
-      
-    }
-    else if ( $_GET['type'] === 'companies' ) {
-      
-    }
+    else if ( $_GET['type'] === 'people' )
+      include_once('people.php');
+    else if ( $_GET['type'] === 'travel' )
+      include_once('travel.php');    
+    else if ( $_GET['type'] === 'street' )
+      include_once('street.php');
+    else if ( $_GET['type'] === 'companies' )
+      include_once('companies.php');
     else return 0;
   ?>
 

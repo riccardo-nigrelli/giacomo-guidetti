@@ -69,5 +69,15 @@
       </div>
     </div>
 
+    <div class='row'>
+
+      <div style='padding: 4px;' class='text-center col-lg-4 col-md-4 col-sm-12'>
+        <a href='./albums/nature/Formazza_neve.jpg' class='gallery-link'>
+          <img style='padding-bottom: 8px;' src='./albums/nature/Formazza_neve.jpg' alt=''
+            class='gallery-image img-fluid'>
+        </a>
+      </div>
+    </div>
+
   </div>
 </section>
