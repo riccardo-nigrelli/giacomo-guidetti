@@ -49,25 +49,23 @@
 					<h4 class="font-cinzel font-24 color-white">PHOTOGRAPHY</h4>
 
 					<button class="font-18 btn btn-outline-light m-top-60" type="button"
-					onclick="document.location.href='portfolio.html';" >View More</button>
+					onclick="document.location.href='portfolio.php';" >View More</button>
 				</div>
             </div>
         
 
-            <div class="row align-items-center" style="left: 50%; position: absolute; transform: translateX(-50%); padding-top: calc(100vh - 380px)">
+        <div class="row align-items-center" style="left: 50%; position: absolute; transform: translateX(-50%); padding-top: calc(100vh - 380px)">
 
-                <div class="col-md-auto text-center" style="font-size:25px; margin-right: 10px;">
-					<a href="https://www.instagram.com/giacomo__guidetti/" target="_blank"><i style="color: grey;" id="instagram" class="fab fa-instagram"></i></a>
-				</div>
-				<div class="col-md-auto text-center" style="font-size:25px; margin-right: 10px;">
-					<a href="https://www.youtube.com/channel/UCgSxw-jGMHaFckdqYf5m81Q?app=desktop" target="_blank"><i style="color: grey;" id="youtube" class="fab fa-youtube"></i></a>
-				</div>
-				<div class="col-md-auto text-center" style="font-size:25px; margin-right: 10px;">
-					<a href="https://www.facebook.com/giacomo.guidetti.7" target="_blank"><i style="color: grey;" id="facebook" class="fab fa-facebook"></i></a>
-				</div>
-
-
-            </div>
+          <div class="col-md-auto text-center" style="font-size:25px; margin-right: 10px;">
+						<a href="https://www.instagram.com/giacomo__guidetti/" target="_blank"><i style="color: grey;" id="instagram" class="fab fa-instagram"></i></a>
+					</div>
+					<div class="col-md-auto text-center" style="font-size:25px; margin-right: 10px;">
+						<a href="https://www.youtube.com/channel/UCgSxw-jGMHaFckdqYf5m81Q?app=desktop" target="_blank"><i style="color: grey;" id="youtube" class="fab fa-youtube"></i></a>
+					</div>
+					<div class="col-md-auto text-center" style="font-size:25px; margin-right: 10px;">
+						<a href="https://www.facebook.com/giacomo.guidetti.7" target="_blank"><i style="color: grey;" id="facebook" class="fab fa-facebook"></i></a>
+					</div>
+        </div>
             
         </div>
 	<!-- </div> -->
