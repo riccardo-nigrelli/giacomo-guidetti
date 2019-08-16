@@ -43,9 +43,13 @@ gulp.task('img-compress', () => {
 
 gulp.task('dev', () => {
 
-  connect.server({}, function () {
-    browserSync({
-      proxy: '127.0.0.1:8000/app/'
+  connect.server({
+      keepalive: true,
+      base: "app"
+    }, 
+    function () {
+      browserSync({
+        proxy: '127.0.0.1:8000/'
     });
   });
 
