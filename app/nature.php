@@ -77,6 +77,12 @@
             class='gallery-image img-fluid'>
         </a>
       </div>
+
+      <div style='padding: 4px;' class='text-center col-lg-4 col-md-4 col-sm-12'>
+        <a href='./albums/nature/Cane_mottarone.jpg' class='gallery-link'>
+          <img style='padding-bottom: 8px;' src='./albums/nature/Cane_mottarone.jpg' alt='' class='img-fluid'>
+        </a>
+      </div>
     </div>
 
   </div>
