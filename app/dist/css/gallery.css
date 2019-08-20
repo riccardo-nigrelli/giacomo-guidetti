@@ -1,15 +1,3 @@
-.gallery-image::before, .gallery-image::after {
-  content: "";
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  right: 4px;
-  bottom: 4px;
-  border: 16px solid rgba(0, 0, 0, 0.1);
-  transition: all 0.2s;
-  will-change: border;
-}
-
 html:not(.touch) .gallery-image:hover::after {
   border-width: 32px;
 }
@@ -172,4 +160,56 @@ button.mfp-close:active {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+html:not(.touch) .gallery-image figcaption, .touch .gallery-image figcaption, .mfp-with-zoom .mfp-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0);
+  padding: 1em;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  max-width: calc(100% - 9em);
+  line-height: 1.25;
+  text-align: center;
+  box-sizing: border-box;
+}
+html:not(.touch) .gallery-image figcaption:before, .touch .gallery-image figcaption:before, .mfp-with-zoom .mfp-title:before, html:not(.touch) .gallery-image figcaption:after, .touch .gallery-image figcaption:after, .mfp-with-zoom .mfp-title:after {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  z-index: -1;
+}
+html:not(.touch) .gallery-image figcaption:before, .touch .gallery-image figcaption:before, .mfp-with-zoom .mfp-title:before, html:not(.touch) .gallery-image figcaption:after, .touch .gallery-image figcaption:after, .mfp-with-zoom .mfp-title:after {
+  right: 100%;
+  bottom: 100%;
+}
+html:not(.touch) .gallery-image figcaption:after, .touch .gallery-image figcaption:after, .mfp-with-zoom .mfp-title:after {
+  left: 100%;
+  top: 100%;
+}
+html:not(.touch) .gallery-image figcaption.visible, html:not(.touch) .gallery-image:hover figcaption, .touch .gallery-image figcaption, .mfp-with-zoom .visible.mfp-title, .mfp-with-zoom.mfp-ready .mfp-title {
+  color: white;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease 0.3s;
+}
+html:not(.touch) .gallery-image figcaption.visible:before, html:not(.touch) .gallery-image:hover figcaption:before, .touch .gallery-image figcaption:before, .mfp-with-zoom .visible.mfp-title:before, .mfp-with-zoom.mfp-ready .mfp-title:before, html:not(.touch) .gallery-image figcaption.visible:after, html:not(.touch) .gallery-image:hover figcaption:after, .touch .gallery-image figcaption:after, .mfp-with-zoom .visible.mfp-title:after, .mfp-with-zoom.mfp-ready .mfp-title:after {
+  opacity: 1;
+}
+html:not(.touch) .gallery-image figcaption.visible:before, html:not(.touch) .gallery-image:hover figcaption:before, .touch .gallery-image figcaption:before, .mfp-with-zoom .visible.mfp-title:before, .mfp-with-zoom.mfp-ready .mfp-title:before {
+  right: -1.5em;
+  bottom: -1.5em;
+}
+html:not(.touch) .gallery-image figcaption.visible:after, html:not(.touch) .gallery-image:hover figcaption:after, .touch .gallery-image figcaption:after, .mfp-with-zoom .visible.mfp-title:after, .mfp-with-zoom.mfp-ready .mfp-title:after {
+  left: -1.5em;
+  top: -1.5em;
 }

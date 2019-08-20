@@ -12,6 +12,8 @@
     type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link href="css/gallery.min.css" rel="stylesheet">
   <link href="css/theme.min.css" rel="stylesheet">
 </head>
@@ -36,6 +38,9 @@
     else return 0;
   ?>
 
+  <?php require_once('parts/footer.php') ?>
+  
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
   </script>
@@ -49,7 +54,7 @@
   <script>
     $(document).ready((e) => {
       if (/Android|iPhone/i.test(navigator.userAgent)) {
-        $('a').attr('href', '');
+        $('a.gallery-link').attr('href', '');
       }
     });
   </script>
