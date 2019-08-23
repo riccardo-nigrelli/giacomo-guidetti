@@ -48,7 +48,8 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin></script>
-  <!-- <script src=''></script> -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+  <script src='./js/gallery.min.js'></script>
 
   <script>
     $(document).ready((e) => {
@@ -57,21 +58,7 @@
       }
     });
   </script>
-
-  <script>
-    var script = document.createElement('script');
-    var script1 = document.createElement('script');
-    script.type='text/javascript';
-    script1.type='text/javascript';
-
-    if(window.matchMedia("(min-width:500px)").matches) {
-      script.src = 'https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js';
-      script1.src = './js/gallery.min.js';
-    }
-
-    document.getElementsByTagName('head')[0].appendChild(script);
-    document.getElementsByTagName('head')[0].appendChild(script1);
-  </script>
+  
 </body>
 
 </html>
