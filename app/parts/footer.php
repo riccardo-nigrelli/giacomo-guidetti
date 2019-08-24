@@ -15,7 +15,7 @@
   </div>
   <div class="row justify-content-center" style="padding-bottom: 15px; margin-top: 10px;">
     <div class="col-12 text-center">
-      <p style="font-size: 14px; margin: 0px;">&copy; 2019 Giacomo Guidetti - Tutti i diritti riservati</p>
+      <p style="font-size: 12px; margin: 0px;">&copy; 2019 Giacomo Guidetti - Tutti i diritti riservati</p>
     </div>
   </div>
 </div>

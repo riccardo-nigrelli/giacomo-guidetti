@@ -10,16 +10,16 @@
       <div class="mobile-centering navbar-collapse collapse" id="navbar7" style="padding: 0px">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a id="home" class="<?php echo ($_SERVER['REQUEST_URI'] === "/") ? "nav-link-active" : "nav-link" ?>" href="/">Home</a>
+            <a id="home" class="<?php echo ($_SERVER['REQUEST_URI'] === "/") ? "nav-link-active font-link-menu" : "nav-link font-link-menu" ?>" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a id="challenges" class="<?php echo ($_SERVER['REQUEST_URI'] === "/portfolio.php") ? "nav-link-active" : "nav-link" ?>" href="portfolio.php">Portfolio</a>
+            <a id="portfolio" class="<?php echo ($_SERVER['REQUEST_URI'] === "/portfolio.php") ? "nav-link-active font-link-menu" : "nav-link font-link-menu" ?>" href="portfolio.php">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a id="questions" class="<?php echo ($_SERVER['REQUEST_URI'] === "/#") ? "nav-link-active" : "nav-link" ?>" href="#">About</a>
+            <a id="about" class="<?php echo ($_SERVER['REQUEST_URI'] === "/about.php") ? "nav-link-active font-link-menu" : "nav-link font-link-menu" ?>" href="about.php">About</a>
           </li>
           <li class="nav-item mm-r-15">
-            <a id="questions" class="<?php echo ($_SERVER['REQUEST_URI'] === "/#") ? "nav-link-active" : "nav-link" ?>" href="#" style="padding-right: 0px;">Contact</a>
+            <a id="contact" class="<?php echo ($_SERVER['REQUEST_URI'] === "/contact.php") ? "nav-link-active font-link-menu" : "nav-link font-link-menu" ?>" href="contact.php" style="padding-right: 0px;">Contact</a>
           </li>
         </ul>
       </div>
