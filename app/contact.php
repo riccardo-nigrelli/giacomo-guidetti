@@ -29,24 +29,25 @@
   <div class="container-fluid" style="padding: 0px; margin: 0px;">
     <div class="row justify-content-md-center margin-portfolio-img">
       <div class="col-md-6">
-        <form>
-          <div id="errorField" class="poiret-font alert alert-danger hidden-div">Ti preghiamo di compilare tutti i campi</div>
-          <div id="successField" class="poiret-font alert alert-success hidden-div">Email mandata con successo, ti risponderemo il prima possibile</div>
+        <form id="formEmail">
+          <div id="errorField" class="poiret-font alert alert-danger hidden-div">Please complete all required fields!</div>
+          <div id="successField" class="poiret-font alert alert-success hidden-div">Email sent with success, I'll answer you shortly!</div>
+          <div id="errorSendField" class="poiret-font alert alert-success hidden-div">Oops! Somethig went wrong!</div>
           <div class="form-row">
             <div class="form-group col-md-6">
-              <input onchange="checkName(this);" type="text" class="custom-form form-control poiret-font" name="name" id="name" placeholder="Name *">
+              <input onchange="checkName(this);" type="text" class="custom-form form-control poiret-font" name="name" id="name" placeholder="Name*">
             </div>
             <div class="form-group col-md-6">
-              <input onchange="checkSurname(this);" type="text" class="custom-form form-control poiret-font" name="cognome" id="cognome" placeholder="Cognome *">
+              <input onchange="checkSurname(this);" type="text" class="custom-form form-control poiret-font" name="surname" id="surname" placeholder="Surname*">
             </div>
           </div>
           <div class="form-group">
-            <input onchange="checkMail(this);" type="email" class="custom-form form-control poiret-font" name="email" id="email" placeholder="Email *">
+            <input onchange="checkMail(this);" type="email" class="custom-form form-control poiret-font" name="email" id="email" placeholder="Email*">
           </div>
           <div class="form-group">
-            <input onchange="checkObject(this);" type="text" class="custom-form form-control poiret-font" name="subject" id="subject" placeholder="Subject *">
+            <input onchange="checkObject(this);" type="text" class="custom-form form-control poiret-font" name="subject" id="subject" placeholder="Subject*">
           </div>
-          <textarea onchange="checkMessage(this);" class="custom-form form-control poiret-font" name="message" id="message" placeholder="Message *" rows="5"></textarea>
+          <textarea onchange="checkMessage(this);" class="custom-form form-control poiret-font" name="message" id="message" placeholder="Message*" rows="5"></textarea>
           
           <small style="font-family: 'Poiret One', cursive; font-size: 10px;">All fields with * are required</small><br>
           <button id="submit" type="button" class="btn btn-primary button-contact">SUBMIT</button>
@@ -57,9 +58,11 @@
 
   <?php require_once('parts/footer.php') ?>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
   </script>
