@@ -6,8 +6,8 @@
         <a href='./albums/nature/cover.jpg' class='gallery-link'>
           <img style='padding-bottom: 8px;' src='./albums/nature/cover.jpg' alt='' class='gallery-image img-fluid'>
         </a>
-        <a href='./albums/nature/pic1.jpg' class='gallery-link'>
-          <img src='./albums/nature/pic1.jpg' alt='' class='img-fluid'>
+        <a href='./albums/nature/Anatra_arona.jpg' class='gallery-link'>
+          <img src='./albums/nature/Anatra_arona.jpg' alt='' class='img-fluid'>
         </a>
       </div>
 
@@ -24,8 +24,8 @@
         <a href='./albums/nature/cigno.JPG' class='gallery-link'>
           <img style='padding-bottom: 8px;' src='./albums/nature/cigno.JPG' alt='' class='img-fluid'>
         </a>
-        <a href='./albums/nature/sfondo7.jpg' class='gallery-link'>
-          <img src='./albums/nature/sfondo7.jpg' alt='' class='img-fluid'>
+        <a href='./albums/nature/Pecore.jpg' class='gallery-link'>
+          <img src='./albums/nature/Pecore.jpg' alt='' class='img-fluid'>
         </a>
       </div>
     </div>
@@ -51,8 +51,8 @@
       </div>
 
       <div style='padding: 4px;' class='text-center col-lg-4 col-md-4 col-sm-12'>
-        <a href='./albums/nature/Pino2.jpg' class='gallery-link'>
-          <img style='padding-bottom: 8px;' src='./albums/nature/Pino2.jpg' alt='' class='img-fluid'>
+        <a href='./albums/nature/Pino.jpg' class='gallery-link'>
+          <img style='padding-bottom: 8px;' src='./albums/nature/Pino.jpg' alt='' class='img-fluid'>
         </a>
         <a href='./albums/nature/Sugo_vaso.jpg' class='gallery-link'>
           <img src='./albums/nature/Sugo_vaso.jpg' alt='' class='img-fluid'>
@@ -63,26 +63,32 @@
         <a href='./albums/nature/Gabbiano.jpg' class='gallery-link'>
           <img style='padding-bottom: 8px;' src='./albums/nature/Gabbiano.jpg' alt='' class='img-fluid'>
         </a>
-        <a href='./albums/nature/Gatto_gozo2.jpg' class='gallery-link'>
-          <img src='./albums/nature/Gatto_gozo2.jpg' alt='' class='img-fluid'>
+        <a href='./albums/nature/Gatto_gozo.jpg' class='gallery-link'>
+          <img src='./albums/nature/Gatto_gozo.jpg' alt='' class='img-fluid'>
         </a>
       </div>
     </div>
 
     <div class='row'>
-
       <div style='padding: 4px;' class='text-center col-lg-4 col-md-4 col-sm-12'>
         <a href='./albums/nature/Formazza_neve.jpg' class='gallery-link'>
           <img style='padding-bottom: 8px;' src='./albums/nature/Formazza_neve.jpg' alt=''
             class='gallery-image img-fluid'>
         </a>
-      </div>
-
-      <div style='padding: 4px;' class='text-center col-lg-4 col-md-4 col-sm-12'>
         <a href='./albums/nature/Cane_mottarone.jpg' class='gallery-link'>
           <img style='padding-bottom: 8px;' src='./albums/nature/Cane_mottarone.jpg' alt='' class='img-fluid'>
         </a>
       </div>
+
+      <div style='padding: 4px;' class='text-center col-lg-4 col-md-4 col-sm-12'>
+        <a href='./albums/nature/Passero_marrakech.jpg' class='gallery-link'>
+          <img style='padding-bottom: 8px;' src='./albums/nature/Passero_marrakech.jpg' alt='' class='img-fluid'>
+        </a>
+        <a href='./albums/nature/Gatti_bosco.jpg' class='gallery-link'>
+          <img src='./albums/nature/Gatti_bosco.jpg' alt='' class='img-fluid'>
+        </a>
+      </div>
+
     </div>
 
   </div>
