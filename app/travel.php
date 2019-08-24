@@ -18,8 +18,8 @@
           <img style='padding-bottom: 8px;' src='./albums/travel/Bergen_fiordi.jpg' alt=''
             class='gallery-image img-fluid'>
         </a>
-        <a href='./albums/travel/Marrakech_lampada.jpg' class='gallery-link'>
-          <img src='./albums/travel/Marrakech_lampada.jpg' alt=''
+        <a href='./albums/travel/Marrakech_lampade.jpg' class='gallery-link'>
+          <img src='./albums/travel/Marrakech_lampade.jpg' alt=''
             class='gallery-image img-fluid'>
         </a>
       </div>
@@ -40,6 +40,19 @@
       <div style='padding: 4px;' class='text-center col-lg-12 col-md-12 col-sm-12'>
         <a href='./albums/travel/AURORA_boreale.jpg' class='gallery-link'>
           <img src='./albums/travel/AURORA_boreale.jpg' alt='' class='gallery-image img-fluid'>
+        </a>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div style='padding: 4px;' class='text-center col-lg-6 col-md-6 col-sm-6'>
+        <a href='./albums/travel/Bergen_fiordi3.jpg' class='gallery-link'>
+          <img src='./albums/travel/Bergen_fiordi3.jpg' alt='' class='gallery-image img-fluid'>
+        </a>
+      </div>
+      <div style='padding: 4px;' class='text-center col-lg-6 col-md-6 col-sm-6'>
+        <a href='./albums/travel/Bergen_fiordi4.jpg' class='gallery-link'>
+          <img src='./albums/travel/Bergen_fiordi4.jpg' alt='' class='gallery-image img-fluid'>
         </a>
       </div>
     </div>
