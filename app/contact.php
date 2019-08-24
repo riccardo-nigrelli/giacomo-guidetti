@@ -30,6 +30,8 @@
     <div class="row justify-content-md-center margin-portfolio-img">
       <div class="col-md-6">
         <form>
+          <div id="errorField" class="poiret-font alert alert-danger hidden-div">Ti preghiamo di compilare tutti i campi</div>
+          <div id="successField" class="poiret-font alert alert-success hidden-div">Email mandata con successo, ti risponderemo il prima possibile</div>
           <div class="form-row">
             <div class="form-group col-md-6">
               <input onchange="checkName(this);" type="text" class="custom-form form-control poiret-font" name="name" id="name" placeholder="Name *">
@@ -39,7 +41,7 @@
             </div>
           </div>
           <div class="form-group">
-            <input onchange="checkEmailFiled(this);" type="email" class="custom-form form-control poiret-font" name="email" id="email" placeholder="Email *">
+            <input onchange="checkMail(this);" type="email" class="custom-form form-control poiret-font" name="email" id="email" placeholder="Email *">
           </div>
           <div class="form-group">
             <input onchange="checkObject(this);" type="text" class="custom-form form-control poiret-font" name="subject" id="subject" placeholder="Subject *">
@@ -47,10 +49,7 @@
           <textarea onchange="checkMessage(this);" class="custom-form form-control poiret-font" name="message" id="message" placeholder="Message *" rows="5"></textarea>
           
           <small style="font-family: 'Poiret One', cursive; font-size: 10px;">All fields with * are required</small><br>
-          <button id="submit" type="submit" class="btn btn-primary button-contact">SUBMIT</button>
-
-          <div id="errorField" class="m-top-30 poiret-font alert alert-danger hidden-div">Ti preghiamo di compilare tutti i campi</div>
-          <div id="successField" class="m-top-30 poiret-font alert alert-success hidden-div">Email mandata con successo, ti risponderemo il prima possibile</div>
+          <button id="submit" type="button" class="btn btn-primary button-contact">SUBMIT</button>
         </form>
       </div> 
     </div>
