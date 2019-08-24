@@ -10,9 +10,31 @@ h6 {
 	font-family: 'Poiret One', cursive;
 }
 
+.font-link-menu {
+	font-size: 12px;
+}
+
+.poiret-font {
+	font-family: 'Poiret One', cursive;
+	font-size: 14px;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+	border-color: #b2b2b2;
+	background-color: #b2b2b2;
+	color: #272727;
+}
+
+.custom-form {
+	background-color: #fafafa;
+	border-radius: 0px;
+	font-family: 'Poiret One', cursive;
+	font-size: 12px;
+}
+
 .home {
 	position: relative;
-	background: url(../images/sfondo8-trim.jpg) no-repeat center center fixed; 
+	background: url(../images/Cappelli_computer.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -20,6 +42,30 @@ h6 {
 
 	width: auto !important;
 	height: 100%;
+}
+
+.form-control:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: black;
+	outline: 0;
+	box-shadow: black;
+}
+
+.has-danger .form-control {
+	border-color: #d9534f;
+}
+
+.has-success .form-control {
+	border-color: #5cb85c;
+}
+
+.form-control-danger, .form-control-success, .form-control-warning {
+	padding-right: 2.25rem;
+	background-repeat: no-repeat;
+	background-position: center right .5625rem;
+	-webkit-background-size: 1.125rem 1.125rem;
+	background-size: 1.125rem 1.125rem;
 }
 
 h1,
@@ -81,6 +127,9 @@ h4,
 		margin-right: 0px;
 	}
 
+	.font-link-menu {
+		font-size: 18px;
+	}
 
 	.mobile-centering {
 		margin: auto !important;
@@ -143,6 +192,10 @@ h4,
 	.op-1 {
 		opacity: 1;
 	}
+
+	.font-link-menu {
+		font-size: 18px;
+	}
 }
 
 @media all and (max-width: 499px) {
@@ -162,7 +215,7 @@ h4,
 
   .home {
 		position: relative;
-		background: url(../images/sfondo8-mobile.jpg) no-repeat center center fixed; 
+		background: url(../images/Cappelli_mobile.jpg) no-repeat center center fixed; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -213,6 +266,10 @@ h4,
 
 	.op-1 {
 		opacity: 1;
+	}
+
+	.font-link-menu {
+		font-size: 18px;
 	}
 }
 
@@ -384,4 +441,29 @@ and (orientation : landscape) {
     hsla(0, 0%, 0%, 0),
     hsla(0, 0%, 0%, 0.75) 50%,
     hsla(0, 0%, 0%, 0));
+}
+
+ul ol {
+	font-family: 'Poiret One', cursive;
+	font-size: 14px;	
+}
+
+.button-contact {
+	font-family: 'Poiret One', cursive;
+	font-size: 15px;
+	width: 150px;
+	border-radius: 0px;
+	border-color: #272727;
+	background-color: #272727;
+	margin-top: 10px;
+}
+
+.button-contact:hover {
+	border-color: #b2b2b2;
+	background-color: #b2b2b2;
+	color: #272727;
+}
+
+.hidden-div {
+	display: none;
 }

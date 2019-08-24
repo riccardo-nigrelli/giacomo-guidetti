@@ -1,0 +1,44 @@
+function isEmpty(e) {
+  return '' == e.value.trim()
+}
+
+function checkObject(e) {
+  return isEmpty(e) ? (borderDanger(e), !1)  : (borderSuccess(e), !0)
+}
+
+function checkName(e) {
+  return isEmpty(e) ? (borderDanger(e), !1)  : (borderSuccess(e), !0)
+}
+
+function checkSurname(e) {
+  return isEmpty(e) ? (borderDanger(e), !1)  : (borderSuccess(e), !0)
+}
+
+function checkEmailFiled(e) {
+  return !isEmpty(e) && /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(e.value) ? (borderSuccess(e), !0)  : (borderDanger(e), !1)
+}
+
+function checkMessage(e) {
+  return isEmpty(e) ? (borderDanger(e), !1)  : (borderSuccess(e), !0)
+}
+
+function borderSuccess(e) {
+  $(e).hasClass('form-control-danger') && $(e).parent().hasClass('has-danger') && ($(e).removeClass('form-control-danger'), $(e).parent().removeClass('has-danger')),
+  $(e).addClass('form-control-success'),
+  $(e).parent().addClass('has-success')
+}
+
+function borderDanger(e) {
+  $(e).hasClass('form-control-success') && $(e).parent().hasClass('has-success') && ($(e).removeClass('form-control-success'), $(e).parent().removeClass('has-success')),
+  $(e).addClass('form-control-danger'),
+  $(e).parent().addClass('has-danger')
+}
+
+function checkAllField() {
+  var e = checkObject(document.getElementById('oggetto')),
+  s = checkName(document.getElementById('nome')),
+  r = checkSurname(document.getElementById('cognome')),
+  c = checkEmailFiled(document.getElementById('email')),
+  n = checkMessage(document.getElementById('messaggio'));
+  return e && s && r && c && n
+}

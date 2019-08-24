@@ -162,7 +162,7 @@ a {
   color: inherit;
 }
 
-html:not(.touch) .gallery-image figcaption, .touch .gallery-image figcaption, .mfp-with-zoom .mfp-title {
+html:not(.touch) .gallery-image figcaption, .touch .gallery-image figcaption, {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -197,7 +197,7 @@ html:not(.touch) .gallery-image figcaption:after, .touch .gallery-image figcapti
   left: 100%;
   top: 100%;
 }
-html:not(.touch) .gallery-image figcaption.visible, html:not(.touch) .gallery-image:hover figcaption, .touch .gallery-image figcaption, .mfp-with-zoom .visible.mfp-title, .mfp-with-zoom.mfp-ready .mfp-title {
+html:not(.touch) .gallery-image figcaption.visible, html:not(.touch) .gallery-image:hover figcaption, .touch .gallery-image figcaption, .mfp-with-zoom .visible.mfp-title {
   color: white;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease 0.3s;
