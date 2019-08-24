@@ -15,8 +15,8 @@
         <a href='./albums/people/Camilla_2.jpg' class='gallery-link'>
           <img style='padding-bottom: 8px;' src='./albums/people/Camilla_2.jpg' alt='' class='gallery-image img-fluid'>
         </a>
-        <a href='./albums/people/Bellissimo.jpg' class='gallery-link'>
-          <img style='padding-bottom: 8px;' src='./albums/people/Bellissimo.jpg' alt='' class='gallery-image img-fluid'>
+        <a href='./albums/people/Blumi_1.jpg' class='gallery-link'>
+          <img style='padding-bottom: 8px;' src='./albums/people/Blumi_1.jpg' alt='' class='gallery-image img-fluid'>
         </a>
         <a href='./albums/people/Dalia_2.jpg' class='gallery-link'>
           <img style='padding-bottom: 8px;' src='./albums/people/Dalia_2.jpg' alt='' class='gallery-image img-fluid'>
