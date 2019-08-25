@@ -2,7 +2,7 @@
   <div class="col-12">
     <nav class="navbar navbar-expand-md" style="padding: 0px">
       <a href="/" class="mobile-centering navbar-brand">
-        <h2 class="font-cinzel" style="color: grey;">Giacomo Guidetti</h2>
+        <img class="logo-menu"  src="../images/Logo-sito.png"/>
       </a>
       <button class="mobile-centering text-center navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar7">
         <span class="navbar-toggler-icon"></span>
