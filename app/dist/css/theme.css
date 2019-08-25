@@ -11,7 +11,7 @@ h6 {
 }
 
 .font-link-menu {
-	font-size: 12px;
+	font-size: 25px;
 }
 
 .poiret-font {
@@ -23,6 +23,11 @@ h6 {
 	border-color: #b2b2b2;
 	background-color: #b2b2b2;
 	color: #272727;
+}
+
+.logo-menu {
+	float: left; 
+	width:40%;
 }
 
 .custom-form {
@@ -149,6 +154,13 @@ h4,
 	.op-1 {
 		opacity: 1;
 	}
+
+	.logo-menu {
+		width: 90%;
+		margin: 0 auto !important;
+		text-align: center !important;
+		float: inherit;
+	}
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -195,6 +207,13 @@ h4,
 
 	.font-link-menu {
 		font-size: 18px;
+	}
+
+	.logo-menu {
+		width: 90%;
+		margin: 0 auto !important;
+		text-align: center !important;
+		float: inherit;
 	}
 }
 
@@ -270,6 +289,13 @@ h4,
 
 	.font-link-menu {
 		font-size: 18px;
+	}
+
+	.logo-menu {
+		width: 90%;
+		margin: 0 auto !important;
+		text-align: center !important;
+		float: inherit;
 	}
 }
 
@@ -467,3 +493,5 @@ ul ol {
 .hidden-div {
 	display: none;
 }
+
+

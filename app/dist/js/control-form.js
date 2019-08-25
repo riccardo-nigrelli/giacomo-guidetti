@@ -83,7 +83,7 @@ function borderDanger(input) {
 
 function checkForm() {
   c1 = checkName(document.getElementById('name'));
-  c2 = checkSurname(document.getElementById('cognome'));
+  c2 = checkSurname(document.getElementById('surname'));
   c3 = checkMail(document.getElementById('email'));
   c4 = checkObject(document.getElementById('subject'));
   c5 = checkMessage(document.getElementById('message'));
