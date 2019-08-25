@@ -6,6 +6,7 @@ $(document).ready(function() {
 			var email = $('#email').val();
 			var subject = $('#subject').val();
 			var message = $('#message').val();
+			var token = $('#token').val();
 
 			$.post("./parts/send-email.php", {
 					name: name,
@@ -13,6 +14,7 @@ $(document).ready(function() {
 					email: email,
 					subject: subject,
 					message: message,
+					token: token
 				},
 				function(data) {
 					if ( data == "sent") {
@@ -20,8 +22,8 @@ $(document).ready(function() {
 						setTimeout(function(){ $('#successField').hide(); }, 5000);
 						$("#formEmail")[0].reset();
 
-						$('div.has-success').removeClass('has-success');
-						$('input.form-control-success').removeClass('form-control-success');
+						$('.has-success div').removeClass('has-success');
+						$('.form-control-success input').removeClass('form-control-success');
 					}
 					else {
 						$('#errorSendField').show();
