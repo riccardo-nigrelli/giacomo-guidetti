@@ -129,7 +129,7 @@
         <a href='./albums/nature/Passero_marrakech.jpg' class='gallery-link'>
           <figure class='gallery-image'>
             <img style='padding-bottom: 8px;' src='./albums/nature/Passero_marrakech.jpg' alt='' class='img-fluid'>
-            <figcaption></figcaption>
+            <figcaption>Curious sparrow</figcaption>
           </figure>
         </a>
         <a href='./albums/nature/Gatti_bosco.jpg' class='gallery-link'>
