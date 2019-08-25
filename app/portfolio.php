@@ -5,8 +5,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Collection of my best shot grouped by type">
+  <meta name="author" content="Riccardo Nigrelli">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="Photography, Photos, Photographer, Giacomo photography, Giacomo guidetti, 
+		Giacomo guidetti photography, Guidetti photography, Giacomo pictures, Pictures, Nature, People, Travel, 
+		Nature photography, People photography, Travel photography, Fotografia, Foto, Fotografo, 
+		Fotografie di Giacomo, Fotografie di Giacomo Guidetti, Foto di Giacomo Guidetti, Foto di Giacomo
+		Natura, Ritratti, Viaggi, Foto della natura, Fotografie di viaggi">
   <title>Giacomo Guidetti - Portfolio</title>
 
   <link rel="shortcut icon" href="./images/favicon.ico">
