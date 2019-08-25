@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Photo gallery">
+  <meta name="author" content="Riccardo Nigrelli">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="Photography, Photos, Photographer, Giacomo photography, Giacomo guidetti, 
+		Giacomo guidetti photography, Guidetti photography, Giacomo pictures, Pictures, Nature, People, Travel, 
+		Nature photography, People photography, Travel photography, Fotografia, Foto, Fotografo, 
+		Fotografie di Giacomo, Fotografie di Giacomo Guidetti, Foto di Giacomo Guidetti, Foto di Giacomo
+		Natura, Ritratti, Viaggi, Foto della natura, Fotografie di viaggi">
   <title>Gallery</title>
   <link rel="shortcut icon" href="./images/favicon.ico">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
