@@ -18,8 +18,7 @@
   <link rel="shortcut icon" href="./images/favicon.ico">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <link href="css/theme.min.css" rel="stylesheet">
 
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet"
@@ -50,14 +49,25 @@
           <img class="img-fluid" src="albums/people/Delpo_3.jpg" alt="Cover">
         </a>
       </div>
-      
       <div id="travel" class="p-p-i-20 margin-top-mobile col-lg-4 text-center">
-        <h1
-          style="font-size: 50px; position: absolute; color: white; z-index: 1; top: 8%; left: 50%; transform: translate(-50%, -50%);">
+        <h1 style="font-size: 50px; position: absolute; color: white; z-index: 1; top: 8%; left: 50%; transform: translate(-50%, -50%);">
           Travel</h1>
         <a href="gallery.php?type=travel">
           <img class="img-fluid" src="albums/travel/Ricky_travel.jpg" alt="Cover">
         </a>
+      </div>
+    </div>
+    <div style="margin-top: 30px;" class="row justify-content-md-center text-center margin-portfolio-img">
+      <div id="companies" class="floar-left margin-top-mobile col-lg-4 text-center">
+        <h1 style="font-size: 50px; position: absolute; color: white; z-index: 1; top: 8%; left: 50%; transform: translate(-50%, -50%);">
+        Companies</h1>
+        <a href="gallery.php?type=companies">
+          <img class="img-fluid" src="albums/companies/cover.jpg" alt="Cover">
+        </a>
+      </div>
+      <div class="col-lg-4" style="display: block;">
+      </div>
+      <div class="col-lg-4" style="display: block;">
       </div>
     </div>
   </div>

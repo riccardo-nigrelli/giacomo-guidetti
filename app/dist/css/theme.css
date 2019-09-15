@@ -109,6 +109,22 @@ h4,
 	margin-right: 50px;
 }
 
+.first-gear-line {
+	padding: 0px; 
+	margin: 0px; 
+	display: flex; 
+	justify-content: center;
+}
+
+.second-gear-line {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	display: flex;
+	justify-content: center;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 	.margin-top-mobile {

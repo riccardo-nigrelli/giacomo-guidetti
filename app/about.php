@@ -74,14 +74,20 @@
     <div class="row justify-content-md-center text-center margin-portfolio-img">
       <div class="col-12 text-center">
         <h5 style="font-weight: bold;">THE GEAR I USE</h5><br>
-        <ul class="text-center" style="padding: 0px; margin: 0px; display: flex; justify-content: center;">
+        <ul class="text-center first-gear-line">
           <ol style="padding-left: 0px;">Sony a6300</ol>
           <ol>Canon 600D</ol>
           <ol>Sigma 16mm f/1.4</ol>
           <ol>Sony 50mm f/1.8</ol>
           <ol>Sony 55-210mm f/4.5-6.3</ol>
           <ol>Sony basic lens 16-50mm f/3.5-5.6</ol>
+        </ul>
+        <ul class="text-center second-gear-line">
           <ol>Canon 50mm f/1.8</ol>
+          <ol>Gopro Hero 5</ol>
+          <ol>iMac 21.5''</ol>
+          <ol>Neewer carbon fiber tripod</ol>
+          <ol>Wait until I get a drone</ol>
         </ul>
       </div>
     </div>
