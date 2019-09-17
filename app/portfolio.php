@@ -21,9 +21,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <link href="css/theme.min.css" rel="stylesheet">
 
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet"
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet"
     type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -56,9 +56,7 @@
           <img class="img-fluid" src="albums/travel/Ricky_travel.jpg" alt="Cover">
         </a>
       </div>
-    </div>
-    <div style="margin-top: 30px;" class="row justify-content-md-center text-center margin-portfolio-img">
-      <div id="companies" class="floar-left margin-top-mobile col-lg-4 text-center">
+      <div id="companies" class="floar-left margin-top-mobile col-lg-4 text-center m-top-company-30">
         <h1 style="font-size: 50px; position: absolute; color: white; z-index: 1; top: 8%; left: 50%; transform: translate(-50%, -50%);">
         Companies</h1>
         <a href="gallery.php?type=companies">
@@ -70,6 +68,9 @@
       <div class="col-lg-4" style="display: block;">
       </div>
     </div>
+    <!-- <div style="" class="row justify-content-md-center text-center margin-portfolio-img">
+      
+    </div> -->
   </div>
 
   <?php require_once('parts/footer.php') ?>

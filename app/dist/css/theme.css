@@ -103,6 +103,10 @@ h4,
 	padding: 80px;
 }
 
+.m-top-company-30 {
+	margin-top: 30px;
+}
+
 .margin-portfolio-img {
 	margin-top: 50px;
 	margin-left: 50px;
@@ -124,6 +128,24 @@ h4,
 	display: flex;
 	justify-content: center;
 }
+
+.font-giami {
+	font-size: 45px;
+}
+
+.font-card-company {
+	font-size: 45px;
+}
+
+.title-company-card {
+	margin: 0px;
+	position: absolute; 
+	color: white; 
+	z-index: 1; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+} 
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
@@ -176,6 +198,14 @@ h4,
 		margin: 0 auto !important;
 		text-align: center !important;
 		float: inherit;
+	}
+
+	.m-top-company-30 {
+		margin-top: 20px;
+	}
+
+	.font-giami {
+		font-size: 35px;
 	}
 }
 
@@ -230,6 +260,14 @@ h4,
 		margin: 0 auto !important;
 		text-align: center !important;
 		float: inherit;
+	}
+
+	.m-top-company-30 {
+		margin-top: 20px;
+	}
+
+	.font-giami {
+		font-size: 35px;
 	}
 }
 
@@ -312,6 +350,14 @@ h4,
 		margin: 0 auto !important;
 		text-align: center !important;
 		float: inherit;
+	}
+
+	.m-top-company-30 {
+		margin-top: 20px;
+	}
+
+	.font-giami {
+		font-size: 35px;
 	}
 }
 
