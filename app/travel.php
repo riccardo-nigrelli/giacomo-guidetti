@@ -1,4 +1,4 @@
-<section class='gallery-section' style='padding-bottom: 500px;'>
+<!-- <section class='gallery-section' style='padding-bottom: 500px;'>
   <div class='container-fluid grid-custom p-80'>
     <div class='row'>
 
@@ -78,4 +78,33 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
+
+<div id="card-container" class='container-fluid grid-custom p-80'>
+  <div class="row justify-content-md-center text-center">
+    <div style="cursor: pointer;" onclick="window.location.href='#'" class="col-md-4" style="margin: 30px; padding: 8px;">
+      <h1 class="font-giami title-company-card">Marrakech</h1>
+      <img src="albums/companies/giami/giami_2.jpg" class="img-fluid"/>
+    </div>
+    <div style="cursor: pointer;" onclick="window.location.href='gallery.php?type=companies&name=vineyards'" class="col-md-4 margin-top-mobile" style="margin: 30px; padding: 8px;">
+      <h1 class="font-card-company title-company-card">Gozo</h1>
+      <img src="albums/companies/vigneti/uva_3.jpg" class="img-fluid"/>
+    </div>
+  </div>
+  <div class="row justify-content-md-center text-center m-top-30">
+    <div style="cursor: pointer;" onclick="window.location.href='#'" class="col-md-4" style="margin: 30px; padding: 8px;">
+      <h1 class="font-giami title-company-card">Bergen</h1>
+      <img src="albums/companies/giami/giami_2.jpg" class="img-fluid"/>
+    </div>
+    <div style="cursor: pointer;" onclick="window.location.href='gallery.php?type=companies&name=vineyards'" class="col-md-4 margin-top-mobile" style="margin: 30px; padding: 8px;">
+      <h1 class="font-card-company title-company-card">Corfu</h1>
+      <img src="albums/companies/vigneti/uva_3.jpg" class="img-fluid"/>
+    </div>
+  </div>
+  <div class="row justify-content-md-center text-center m-top-30">
+    <div style="cursor: pointer;" onclick="window.location.href='#'" class="col-md-4" style="margin: 30px; padding: 8px;">
+      <h1 class="font-giami title-company-card">Cina</h1>
+      <img src="albums/companies/giami/giami_2.jpg" class="img-fluid"/>
+    </div>
+  </div>
+</div>
