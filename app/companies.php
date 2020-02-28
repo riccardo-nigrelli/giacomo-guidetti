@@ -11,7 +11,7 @@
   </div>
 </div>
 
-<?php 
+<?php
 
   if ( $_GET['type'] === 'companies' && $_GET['name'] === 'vineyards' ) {
     include_once('vineyards.php');
