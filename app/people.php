@@ -45,12 +45,24 @@
             <figcaption>Fluo fun</figcaption>
           </figure>
         </a>
-        <a href='./albums/people/Giangi.jpg' class='gallery-link'>
+        <a href='./albums/people/Ambra_mottarone.jpg' class='gallery-link'>
+          <figure class='gallery-image'>
+            <img style='padding-bottom: 8px;' src='./albums/people/Ambra_mottarone.jpg' alt='' class='gallery-image img-fluid'>
+            <figcaption>Mottarone view</figcaption>
+          </figure>
+        </a>
+        <!-- <a href='./albums/people/Giangi.jpg' class='gallery-link'>
           <figure class='gallery-image'>
             <img style='padding-bottom: 8px;' src='./albums/people/Giangi.jpg' alt='' class='gallery-image img-fluid'>
             <figcaption>John G.</figcaption>
           </figure>
         </a>
+        <a href="./albums/people/Luca_viale.jpg" class="gallery-link">
+          <figure class='gallery-image'>
+            <img style="padding-bottom: 8px;" src="./albums/people/Luca_viale.jpg" alt="" class="gallery-image img-fluid">
+            <figcaption>Sparkling smile</figcaption>
+          </figure>
+        </a> -->
 
       </div>
 
@@ -118,12 +130,13 @@
       </div>
 
       <div style="padding: 4px;" class="text-center col-md-4">
-        <a href="./albums/people/Luca_viale.jpg" class="gallery-link">
+        <a href="./albums/people/Delpo_saoseo.jpg" class="gallery-link">
           <figure class='gallery-image'>
-            <img style="padding-bottom: 8px;" src="./albums/people/Luca_viale.jpg" alt="" class="gallery-image img-fluid">
-            <figcaption>Sparkling smile</figcaption>
+            <img style="padding-bottom: 8px;" src="./albums/people/Delpo_saoseo.jpg" alt="" class="gallery-image img-fluid">
+            <figcaption>Davy Crockett</figcaption>
           </figure>
         </a>
+        
         <a href="./albums/people/Veronica_2.jpg" class="gallery-link">
           <figure class='gallery-image'>
             <img style="padding-bottom: 8px;" src="./albums/people/Veronica_2.jpg" alt="" class="gallery-image img-fluid">
@@ -140,8 +153,7 @@
           <figure class='gallery-image'>
             <img style='padding-bottom: 8px;' src='./albums/people/Cosplayer_1.jpg' alt='' class='gallery-image img-fluid'>
             <figcaption>Oni's rage</figcaption>
-          </figure>
-            
+          </figure>            
         </a>
         <a href='./albums/people/Piralla_2.jpg' class='gallery-link'>
           <figure class='gallery-image'>
