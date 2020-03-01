@@ -42,7 +42,7 @@
   }
   
   if ( $_GET['type'] === 'travel' && $_GET['trip'] === 'marrakech' ) {
-    include_once('marrakech.php');
+    // include_once('#');
     echo "<script>$('#card-container').addClass('hidden-div');</script>";
   }
   
