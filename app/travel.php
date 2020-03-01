@@ -18,7 +18,7 @@
     </div>
     <div style="cursor: pointer;" onclick="window.location.href='gallery.php?type=travel&trip=marrakech'" class="col-md-4 margin-top-mobile" style="margin: 30px; padding: 8px;">
       <h1 class="font-card-company title-company-card">Marrakech</h1>
-      <img src="albums/travel/Marrakech/Marrakech_tetti.jpg" class="img-fluid"/>
+      <img src="albums/travel/Marrakech/tetti.jpg" class="img-fluid"/>
     </div>
   </div>
   <!-- <div class="row justify-content-md-center text-center m-top-30">
@@ -42,7 +42,7 @@
   }
   
   if ( $_GET['type'] === 'travel' && $_GET['trip'] === 'marrakech' ) {
-    // include_once('#');
+    include_once('marrakech.php');
     echo "<script>$('#card-container').addClass('hidden-div');</script>";
   }
   

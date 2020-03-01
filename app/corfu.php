@@ -1,5 +1,5 @@
 <section class='gallery-section' style='padding-bottom: 500px;'>
-  <div class='container-fluid grid-custom p-80'>
+  <div class='container-fluid grid-custom p-80' style="margin-bottom: -400px;">
     <div class='row'>
 
       <div style='padding: 4px;' class='text-center col-md-4'>

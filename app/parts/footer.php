@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="row justify-content-center" style="padding-top: 100px;">
+  <div class="row justify-content-center">
     <hr class="shine">
   </div>
   <div class="row justify-content-center">

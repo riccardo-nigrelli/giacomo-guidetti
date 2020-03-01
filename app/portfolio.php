@@ -33,7 +33,7 @@
     <?php require_once('parts/navbar.php') ?>
   </div>
   
-  <div class="container-fluid" style="padding: 0px; margin: 0px;">
+  <div class="container-fluid" style="padding: 0px; margin: 0px; padding-bottom: 70px;">
     <div class="row justify-content-md-center text-center margin-portfolio-img">
       <div id="nature" class="margin-top-mobile col-lg-4 text-center">
         <h1 style="font-size: 50px; position: absolute; color: white; z-index: 1; top: 8%; left: 50%; transform: translate(-50%, -50%);">
